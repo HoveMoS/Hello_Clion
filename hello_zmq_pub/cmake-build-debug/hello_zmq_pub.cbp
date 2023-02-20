@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="hello_zmq_pub"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/HYH/C/Clion/hello_zmq_pub/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\HYH\C\Clion\hello_zmq_pub\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\HYH\C\Clion\hello_zmq_pub\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\HYH\C\Clion\hello_zmq_pub\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\HYH\C\Clion\hello_zmq_pub\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/HYH/C/Clion/hello_zmq_pub/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\HYH\C\Clion\hello_zmq_pub\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\HYH\C\Clion\hello_zmq_pub\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\HYH\C\Clion\hello_zmq_pub\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\HYH\C\Clion\hello_zmq_pub\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_zmq_pub">
+				<Option output="C:/Users/HYH/C/Clion/hello_zmq_pub/cmake-build-debug/hello_zmq_pub.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HYH/C/Clion/hello_zmq_pub/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/HYH/C/SDK/cppzmq_x86-windows/include"/>
+					<Add directory="C:/Users/HYH/C/SDK/zeromq_x86-windows/include"/>
+					<Add directory="D:\VS2019\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="D:\VS2019\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\HYH\C\Clion\hello_zmq_pub\cmake-build-debug\Makefile VERBOSE=1 hello_zmq_pub"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\HYH\C\Clion\hello_zmq_pub\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\HYH\C\Clion\hello_zmq_pub\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\HYH\C\Clion\hello_zmq_pub\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_zmq_pub/fast">
+				<Option output="C:/Users/HYH/C/Clion/hello_zmq_pub/cmake-build-debug/hello_zmq_pub.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HYH/C/Clion/hello_zmq_pub/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/HYH/C/SDK/cppzmq_x86-windows/include"/>
+					<Add directory="C:/Users/HYH/C/SDK/zeromq_x86-windows/include"/>
+					<Add directory="D:\VS2019\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="D:\VS2019\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\HYH\C\Clion\hello_zmq_pub\cmake-build-debug\Makefile VERBOSE=1 hello_zmq_pub/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\HYH\C\Clion\hello_zmq_pub\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\HYH\C\Clion\hello_zmq_pub\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\HYH\C\Clion\hello_zmq_pub\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/HYH/C/Clion/hello_zmq_pub/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\HYH\C\Clion\hello_zmq_pub\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\HYH\C\Clion\hello_zmq_pub\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\HYH\C\Clion\hello_zmq_pub\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\HYH\C\Clion\hello_zmq_pub\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/HYH/C/Clion/hello_zmq_pub/main.cpp">
+			<Option target="hello_zmq_pub"/>
+		</Unit>
+		<Unit filename="C:/Users/HYH/C/Clion/hello_zmq_pub/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
